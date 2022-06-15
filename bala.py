@@ -6,7 +6,7 @@ import pandas as pd
 import numpy as np
 import matplotlib.pyplot as plt
 
-class flipkart:
+class flipkart:  
     httpObject = urlopen(
         "https://www.flipkart.com/search?q=laptop+8gb%2F1tb&sid=6bo%2Cb5g&as=on&as-show=on&otracker=AS_QueryStore_OrganicAutoSuggest_1_8_na_na_ps&otracker1=AS_QueryStore_OrganicAutoSuggest_1_8_na_na_ps&as-pos=1&as-type=RECENT&suggestionId=laptop+8gb%2F1tb%7CLaptops&requestId=1855a144-3239-4797-947e-89d46192ace1&as-searchtext=laptop+8&p%5B%5D=facets.processor%255B%255D%3DCore%2Bi5")
     webdata = httpObject.read()
